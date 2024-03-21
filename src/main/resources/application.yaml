@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        customTopic-in-0:
+          destination: custom-topic
+  kafka:
+    bootstrap-servers: 0.0.0.0:9093
