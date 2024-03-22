@@ -10,7 +10,7 @@ class ConsumerConfig {
     @Bean
     fun customTopic(): Consumer<Post> {
         return Consumer<Post> { post ->
-            println("Received: $post")
+            println("Notification service has received: $post")
         }
     }
 
